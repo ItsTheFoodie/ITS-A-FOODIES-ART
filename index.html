@@ -21,6 +21,16 @@
     }
 
     function draw(){
+        //right ear
+        noStroke();
+        fill("white");
+        triangle(470,196,568,128,455,92)
+
+        //left ear
+        noStroke();
+        fill("black")
+        triangle(714,143,791,192,831,98);
+        
         //face
         fill("black");
         noStroke();
@@ -38,23 +48,9 @@
         stroke("white")
         circle(mX+66,mY-64,windowWidth/13)
 
-        //left ear
-        noStroke();
-        fill("black")
-        triangle(714,143,791,192,831,98);
 
-        //right ear
-        noStroke();
-        fill("white");
-        triangle(470,196,568,128,455,92)
+
         
-
-        // 
-        
-
-
-
-        //
         
 
     }
